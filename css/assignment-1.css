@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image:url("file:///C:/Users/Corinne/Documents/GitHub/grievec.github.io/images/White%20Brick%20Wall.jpg");
+    background-image:url(images/White Brick Wall.jpg);
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-size:cover;
