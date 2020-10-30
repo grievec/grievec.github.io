@@ -15,7 +15,7 @@
 :root {
     --main-font: 'Euphoria Script', cursive;
     --secondary-font: 'PT Sans Narrow', sans-serif;
-    --main-color: #57021A;
+    --main-color: rgba(87,2,26,1.00);
     --main-background-color: #5A6A72;
     font-size: 16px;
 }
