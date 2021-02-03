@@ -23,21 +23,24 @@
     font-size: 22px;    
 }
 
+html {
+	background-color:var(--main-background-color);
+}
+
 body {
-	font-family: var(--main-font);
-	font-weight: 400;
-	width: 100%;
-	margin: 0;
-	box-sizing: border-box;
-	padding: 0;		
-	color: var(--main-color);
-	background-color: var(--main-background-color);
+        font-family:var(--main-font);
+        font-weight:400;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        color:var(--main-color);
+        background-color:var(--main-background-color);
 }
 
 a {
-	text-decoration: none;
-	color: var(--main-color);
-	font-family: var(--secondary-font);
+    text-decoration:none;
+    color:var(--main-link-color);
+    font-family: var(--main-font);
 }
 
 .page-header {
