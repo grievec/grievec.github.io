@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="C.J. Grieve">	
+	<title> Forms </title>
+	<style type="text/css">
+	@import url("css/forms.css");
+    </style>
+</head>
+
+<body>
+        <header class="page-header">
+            <div class="top-bar">
+                <div class="social-media">
+                    <a href="https://www.twitter.com">
+                        <img src="images/twitter.svg" alt="twitter icon">
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="images/instagram.svg" alt="instagram icon">
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <img src="images/facebook.svg" alt="facebook icon">
+                    </a>
+                </div>
+                <form class="search-bar">
+                    <input class="search-box" type="search" placeholder="search..">
+                    <input class="search-icon" type="image" src="images/search.svg" alt="search">
+                </form>
+                <p class="cart-and-account">
+                    <a href="#">
+                        <img src="images/cart.svg" alt="shopping cart icon">
+                    </a>
+                    <a href="#">Sign In</a>
+                </p>
+            </div>
+            <div class="logo">
+                <a href="https://grievec.github.io/forms">
+                    <img src="images/calm-logo-v2-3.svg" alt="calm logo">
+                </a>
+            </div>
+            <p class="page-sub-header">bistro : tea house</p>
+        </header>
+        <main>
+            <form action="/action_page.php" class="contact-form">
+                <fieldset class="first-name">
+                    <label for="fname">First Name</label> 
+                    <input type="text" id="fname" name="firstname" required="">
+                </fieldset>
+                
+                <fieldset class="last-name">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" required="">
+                </fieldset>
+                
+                <fieldset class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required="">
+                </fieldset>
+                    
+                <fieldset class="comments">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="subject"></textarea>
+                </fieldset>
+                
+                <fieldset class="privacy">
+                    <label for="privacy">By clicking Submit, I agree to the terms and conditions of this <a href="#">Privacy Statement</a></label>
+                    <input type="checkbox" id="privacy" name="privacy" required="">
+                </fieldset>
+                <fieldset class="submit-reset">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>    
+          </form>   
+        </main>
+        <footer class="page-footer">
+            <nav class="footer-nav">
+                <a href="">who we are</a>
+                <a href="">join us</a>
+                <a href="">careers</a>
+                <a href="contact.html">contact</a>
+                <a href=""></a>
+            </nav>
+            <p class="copyright">© 2021 <a href="mailto:info.thecalm.com">The Calm, LLC</a></p>
+            <p class="address">Ellensburg, WA 98926</p>
+        </footer>
+    
+
+</body>
+</html>	
