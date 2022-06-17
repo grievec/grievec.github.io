@@ -25,7 +25,7 @@ h1 {
 
 h2 {
     font-size:2.75rem;
-    color:#1869cc;
+    color:#12519E;
     margin:1% 0;
 }
 
@@ -89,7 +89,7 @@ nav a:active {
           "education"
           "skills"
           "service"
-          "references"
+          "cases"
           "footer";
     }
 
@@ -158,34 +158,40 @@ p {
     grid-area: service;
 }
 
-.references {
+.cases {
     
-    grid-area:references;
+    grid-area: cases;
 }
 
-.ref-list {
+.case-list {
 
     display:block;
 }
 
 
-.references p {
+.cases p {
     
     margin-bottom:0;
     padding:1rem .5rem;
     background-color:#eee;
 }
 
-.references h4 {
+.cases h4 {
     
     margin-bottom:0;
 }
-.references em {
+.cases em {
     
     font-weight:400;
 }
 
-.references a,
+.cases img {
+	
+	width:100%;
+    max-width: 350px;
+}
+
+.cases a,
 footer a {
     
     color:darkolivegreen
@@ -202,7 +208,7 @@ footer {
 
 @media (min-width:650px) {
     
-    .ref-list {
+    .case-list {
     
     display:grid;
         grid-template-columns:1fr 1fr;
@@ -210,10 +216,10 @@ footer {
     
     }
     
-    .ref-1,
-    .ref-2,
-    .ref-3,
-    .ref-4 {
+    .case-1,
+    .case-2,
+    .case-3,
+    .case-4 {
         
         width:90%;
     }
@@ -256,15 +262,15 @@ footer {
             "education education"
             "skills skills"
             "service service"
-            "references references"
+            "cases cases"
             "footer footer";
         box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
     }
     
-    .ref-1,
-    .ref-2,
-    .ref-3,
-    .ref-4 {
+    .case-1,
+    .case-2,
+    .case-3,
+    .case-4 {
         
         width:80%;
     }
@@ -320,7 +326,7 @@ footer {
             "skills work"
             "education work"
             "service service"
-            "references references"
+            "cases cases"
             "footer footer";
     }
     
@@ -341,15 +347,15 @@ footer {
         display:block;
     }
     
-    .ref-list {
+    .case-list {
         
         grid-template-columns:repeat(4, 1fr);
     }
     
-    .ref-1,
-    .ref-2,
-    .ref-3,
-    .ref-4 {
+    .case-1,
+    .case-2,
+    .case-3,
+    .case-4 {
         
         width:auto;
     }
@@ -375,7 +381,7 @@ footer {
             "skills work"
             "education work"
             "service work"
-            "references references"
+            "cases cases"
             "footer footer";    
     }
     
@@ -387,7 +393,7 @@ footer {
         margin-right:10%;
     }
     
-    .ref-list {
+    .case-list {
         
         flex-direction: column;
     }
